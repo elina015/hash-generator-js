@@ -8,7 +8,7 @@ class hashGenerator {
 	constructor (hashLength) {
 		this.startSymbolCode = 48; //0
 		this.finishSymbolCode = 126;
-		this.password = 444;
+		
 		if (  !isNaN(parseInt(hashLength))  ){ //если  ввел число
 			this.hashLength = parseInt(hashLength); //присваеваем заданную длину хеша 
 			this.generateHash(); //генерируем хеш
